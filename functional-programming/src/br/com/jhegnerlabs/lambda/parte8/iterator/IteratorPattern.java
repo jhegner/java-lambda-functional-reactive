@@ -1,4 +1,4 @@
-package br.com.jhegnerlabs.lambda.parte8;
+package br.com.jhegnerlabs.lambda.parte8.iterator;
 
 public class IteratorPattern {
 

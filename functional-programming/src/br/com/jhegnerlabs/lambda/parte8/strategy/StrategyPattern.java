@@ -1,4 +1,4 @@
-package br.com.jhegnerlabs.lambda.parte8;
+package br.com.jhegnerlabs.lambda.parte8.strategy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +23,7 @@ public class StrategyPattern {
 
         StockFilters.filter(stockList, stock -> stock.getSymbol().equals("AMZ")).forEach(System.out::println);
 
+        // :)
         stockList.stream().filter(stock -> stock.getSymbol().equals("AMZ")).forEach(System.out::println);
 
     }
