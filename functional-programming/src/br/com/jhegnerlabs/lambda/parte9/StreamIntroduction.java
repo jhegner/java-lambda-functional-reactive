@@ -9,36 +9,12 @@ public class StreamIntroduction {
     public static void main(String[] args) {
 
         List<Livro> livros = List.of(
-                new Livro(
-                        "Um passeio no parque",
-                        new Autor("Claudio"),
-                        "Comedia",
-                        20.00),
-                new Livro(
-                        "Outro passeio no parque",
-                        new Autor("Claudio"),
-                        "Drama",
-                        2.00),
-                new Livro(
-                        "Outro passeio no parque",
-                        new Autor("Claudio"),
-                        "Comedia",
-                        1.00),
-                new Livro(
-                        "Outro passeio no parque",
-                        new Autor("Claudio"),
-                        "Ficcao",
-                        2.00),
-                new Livro(
-                        "Outro passeio no parque",
-                        new Autor("Claudio"),
-                        "Comedia",
-                        33.00),
-                new Livro(
-                        "Outro passeio no parque",
-                        new Autor("Claudio"),
-                        "Ficcao",
-                        2.00)
+                new Livro("Um passeio no parque", new Autor("Claudio"), "Comedia", 20.00),
+                new Livro("Outro passeio no parque", new Autor("Claudio"), "Drama", 2.00),
+                new Livro("Outro passeio no parque", new Autor("Claudio"), "Comedia", 1.00),
+                new Livro("Outro passeio no parque", new Autor("Claudio"), "Ficcao", 2.00),
+                new Livro("Outro passeio no parque", new Autor("Claudio"), "Comedia", 33.00),
+                new Livro("Outro passeio no parque", new Autor("Claudio"), "Ficcao", 2.00)
         );
 
         var livrosFiltrados = livros.parallelStream()
