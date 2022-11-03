@@ -6,7 +6,11 @@
 
     <groupId>br.com.jhegnerlabs</groupId>
     <artifactId>java-lambda-functional-reactive</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>rxjava-mylabs</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
